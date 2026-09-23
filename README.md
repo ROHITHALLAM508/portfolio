@@ -108,7 +108,6 @@ To begin my career as a Software Developer where I can apply my programming know
 ## 📫 Connect With Me
 
 - GitHub: https://github.com/ROHITHALLAM508
-- LinkedIn: Add your LinkedIn profile here
 - Email: rohithallam884@gmail.com
 
 ---
