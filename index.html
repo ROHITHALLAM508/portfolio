@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Allam Rohith | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 19px;
+            color: #d1d5db;
+        }
+
+        /* Navigation */
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            color: #111827;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #2563eb;
+        }
+
+        /* Sections */
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 55px 20px;
+        }
+
+        section h2 {
+            font-size: 30px;
+            margin-bottom: 25px;
+            color: #111827;
+        }
+
+        /* About */
+        .about-box {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+        }
+
+        /* Education */
+        .education-box {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+        }
+
+        .education-box h3 {
+            color: #2563eb;
+            margin-bottom: 8px;
+        }
+
+        /* Skills */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill {
+            background: white;
+            padding: 10px 18px;
+            border-radius: 25px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            font-weight: bold;
+        }
+
+        /* Projects */
+        .project {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+        }
+
+        .project h3 {
+            color: #2563eb;
+            margin-bottom: 12px;
+        }
+
+        .project ul {
+            margin: 15px 0 15px 25px;
+        }
+
+        .technology {
+            font-weight: bold;
+        }
+
+        /* Training */
+        .training-box {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+        }
+
+        /* Contact */
+        .contact {
+            background: #111827;
+            color: white;
+            text-align: center;
+            max-width: none;
+        }
+
+        .contact h2 {
+            color: white;
+        }
+
+        .contact p {
+            margin: 10px;
+        }
+
+        .contact a {
+            color: #93c5fd;
+            text-decoration: none;
+        }
+
+        /* Footer */
+        footer {
+            background: #0b1120;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+
+            header h1 {
+                font-size: 32px;
+            }
+
+            header p {
+                font-size: 16px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 6px;
+                font-size: 14px;
+            }
+
+            section {
+                padding: 40px 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Allam Rohith</h1>
+        <p>Computer Science Engineering Student | Aspiring Software Developer</p>
+    </header>
+
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#training">Training</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+
+    <!-- About -->
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <div class="about-box">
+
+            <p>
+                I am a final-year Computer Science Engineering student
+                with a strong foundation in Java, Python, SQL, web
+                technologies, and software development.
+            </p>
+
+            <br>
+
+            <p>
+                I am interested in building practical applications,
+                solving programming problems, and continuously learning
+                new technologies.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Education -->
+    <section id="education">
+
+        <h2>Education</h2>
+
+        <div class="education-box">
+
+            <h3>Bachelor of Engineering in Computer Science</h3>
+
+            <p>
+                <strong>Guru Nanak Institutions Technical Campus</strong>
+            </p>
+
+            <p>2023 – Present</p>
+
+            <p>CGPA: 7.43</p>
+
+            <br>
+
+            <h3>Intermediate Education</h3>
+
+            <p>MJPTBCWREIS Jr. College, Pedhavangara</p>
+
+            <p>Percentage: 94%</p>
+
+            <br>
+
+            <h3>SSC, Class X</h3>
+
+            <p>MJPTBCWREIS, Ghanpur</p>
+
+            <p>Percentage: 10</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills">
+
+        <h2>Technical Skills</h2>
+
+        <div class="skills">
+
+            <span class="skill">Java</span>
+            <span class="skill">C</span>
+            <span class="skill">Python</span>
+            <span class="skill">SQL</span>
+
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+
+            <span class="skill">Django</span>
+
+            <span class="skill">SQLite</span>
+            <span class="skill">MongoDB</span>
+
+            <span class="skill">VS Code</span>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+
+        <!-- Project 1 -->
+        <div class="project">
+
+            <h3>1. PAN Number Validation – SQL</h3>
+
+            <p>
+                A SQL-based project developed to clean and validate
+                PAN data, ensuring compliance with the official PAN format.
+            </p>
+
+            <p><strong>Key Features:</strong></p>
+
+            <ul>
+                <li>Validates PAN records using SQL.</li>
+                <li>Detects sequential patterns and repeated characters.</li>
+                <li>Handles missing values and duplicate records.</li>
+                <li>Performs data preprocessing.</li>
+                <li>Converts data to uppercase.</li>
+                <li>Categorizes records into valid and invalid groups.</li>
+                <li>Generates a summary report.</li>
+            </ul>
+
+            <p class="technology">
+                Technology: SQL
+            </p>
+
+        </div>
+
+
+        <!-- Project 2 -->
+        <div class="project">
+
+            <h3>2. Java Text Editor – Web Application</h3>
+
+            <p>
+                A web-based text editor developed using Java (J2EE)
+                that enables users to create, edit, save, print,
+                and manage text documents.
+            </p>
+
+            <p><strong>Key Features:</strong></p>
+
+            <ul>
+                <li>Create and edit text documents.</li>
+                <li>Open and save documents.</li>
+                <li>Print documents.</li>
+                <li>Cut, copy, and paste functionality.</li>
+                <li>Save and submit documents.</li>
+                <li>Cloud/database storage integration.</li>
+                <li>Access documents from multiple devices.</li>
+                <li>Event-driven user interactions.</li>
+            </ul>
+
+            <p class="technology">
+                Technologies: Java, J2EE, Web Technologies
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Training -->
+    <section id="training">
+
+        <h2>Internship / Training</h2>
+
+        <div class="training-box">
+
+            <h3>WIPRO – TalentNext</h3>
+
+            <p>
+                Underwent Industrial Training through
+                WIPRO-TalentNext in 2026.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+
+        <h2>Contact Me</h2>
+
+        <p>
+            Email:
+            <a href="mailto:rohithallam884@gmail.com">
+                rohithallam884@gmail.com
+            </a>
+        </p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/ROHITHALLAM508" target="_blank">
+                github.com/ROHITHALLAM508
+            </a>
+        </p>
+
+        <p>
+            LinkedIn:
+            <a href="#" target="_blank">
+                Add your LinkedIn profile
+            </a>
+        </p>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Allam Rohith. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+  </html>
